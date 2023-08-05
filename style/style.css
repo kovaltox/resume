@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: #f1f1f1;
+    color: #0f141e;
+}
+
+.navbar {
+    background: transparent;    
+    
+    max-width: 800px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+ 
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    padding: 0 20px;
+}
+.navbar ul li {
+    margin-right: 3px;
+    padding: 10px;
+    border: 1px solid #cfcfcf;
+    cursor: pointer;
+}
+.navbar ul li:hover {
+    background: #d1d3d6;
+    opacity: .8;
+}
+.navbar ul li:last-child {
+    margin-right: 0;
+}
+
+
+.avatar {
+    width: 200px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+
+.info   {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+
+
+@media (max-width: 750px){
+    .info {
+        display: block;
+        text-align: center;
+    }
+   
+}
+
+
+
+a {
+    color: #4d4242;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #86898f;
+}
+
+
+a:hover {
+    text-decoration: underline
+}
+
+a:active {
+    color: rgb(224, 161, 161);
+}
+
+
+.conteiner {
+    background-color: #f1f0ef;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 30px;
+    padding: 20px;
+    box-shadow: 5px 4px 14px rgba(0, 0, 0, 0.25);
+
+}
+
+.conteiner h2 {
+
+text-align: center;
+padding: 5px;
+color: #5f5353;
+font-size: 21px;
+
+
+}
+
+
+
+.top1 p {
+    font-style: italic;
+     color: #6d6d6d;
+    margin-bottom: 10px;
+    font-size: 14px;
+   
+   
+}
+
+.top1 h1 {
+    font-size: 25px;
+}
+
+.top1 {
+    padding: 10px;
+    margin-left: 20px;
+  
+}
+
+.social {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: right;
+
+}
+
+.social img {
+    width: 30px;
+    margin-left: 4px;
+}
+
+.social h4 {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.card p {
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    margin: 10px;
+}
+
+.bg-1 {
+    background: #f3eeee;
+}
+
+.bg-2 {
+    background: #f3eeee;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.list li {
+    margin-bottom: 8px;
+}
+
+.bg-3 {
+    background: #f3eeee;
+}
+
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    font-family: Nimbus Roman;
+    font-style: italic;
+    font-size: 20px;
+    color: #474444;
+    border-radius: 0px;
+    border: 1px solid #cfcfcf;
+    text-transform: capitalize;
+    min-width: 220px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.tabl {
+    width: 100%;
+}
+
+.tabl td {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.tabl th {
+    padding: 10px;
+    background-color: #b5b7b9;
+}
+.tabl tr:nth-child(even) {
+    background-color: #e7d8d8;
+}
+
+.btn:hover {
+    opacity: .8;
+}
+
+
+.contact {
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 4px 14px rgba(0, 0, 0, 0.25);
+    background: #f3eeee;
+
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+padding-top: 20px;
+
+}
+
+.form-group label {
+    display: block;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 15px;
+    
+}
+
+.form-row .form-group {
+    margin-right: 30px;
+     width: 50%;   
+}
+
+.form-row .form-group:last-child {
+    margin: 0;
+} 
+
+.form-group input,
+.form-group textarea {
+    width: 80%; 
+   border: none;
+   background: transparent;
+   border-bottom: 1px solid #4d4242;
+   padding: 10px;
+   outline: none;
+   color: #4d4242;
+   font-family: "Roboto";
+   
+
+}
+
+@media (max-width: 700px){
+    .form-row{
+        display: block;
+    }
+
+    .form-row .form-group {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+  
+    }
+   
+    }
+    
+
+form {
+    padding-bottom: 30px;
+
+    
+}
+
+hr {
+    margin-bottom: 10px;
+}
+
+.botn {
+    margin-top: 15px;
+}
+
+
+
